@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Formula 1</title>
-        <link rel="stylesheet" href = "style.css">
-        <div class="prueba">
-            <img class="cabeza"src="recursos/F1Logo.jpg">
-            <img class="cabeza" src="recursos/daznLogo.png">
-        </div>
+        <title>F1</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="recursos/formula_1-logo-brandlogos.net_.png">
     </head>
     <body>
-        <div class="box">
-            <h1 class = "endirecto">En Directo:</h1>
-            <script type='text/javascript'> width=1280, height=720, channel='hgfxhgh7', g='1';</script>
-            <script type='text/javascript' src='https://hd.halftime.top/static/scripts/hucaster.js'></script>
+        <h1 class="texto">F1 Visualizer</h1>
+        <div class="boxFondo">
+            <!--aqui se almacenan los botones a las diferentes subpaginas-->
+            <div class="links">
+
+                <div class = "boton">
+                    <!--Este en particular es el boton, para entrar a ver la f1-->
+                    <div>
+                        <img class="logos"src="recursos/formula_1-logo-brandlogos.net_.png">
+                    </div>
+                    <div>
+                        <a class="link"href="paginaVideo/index.html">Ver la F1 en directo</a>
+                    </div>
+                </div>
+
+                <div class="boton">
+                    <!--Este es otro boton en particular para ver todos los campeones de la f1-->
+                    <div>
+                        <img class ="logos" src="recursos/estrella-del-trofeo.png" >
+                    </div>
+                    <div>
+                        <a class="link" href="PaginaCampeones/index.html">Todos los campones F1</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </body>
+        <main>
+            <h1 class="texto">Historia:</h1>    
+            <div class = "boxtexto">
+                <p class="texto"> 
+                    En 1950 y como respuesta al Campeonato Mundial de Motociclismo iniciado en 1949, 
+                    la Federación Internacional de Automovilismo (FIA) organizó el primer Campeonato Mundial de Pilotos, 
+                    usando las reglas de la F1 esbozadas tras la Gran Guerra. Pero, ¿había pruebas oficiales antes de que 
+                    naciera el Mundial de la disciplina?Sí, lo cierto es que las pruebas automovilísticas 
+                    empezaron a tomar forma en Francia a partir de 1884. Rápidamente evolucionaron de simples 
+                    carreras en caminos de un pueblo a otro a sofisticadas pruebas de resistencia. Un cambio que dio 
+                    pronto sus frutos con vehículos más rápidos y refinados pero, al disputarse en caminos abiertos, 
+                    los accidentes eran más que frecuentes.
+                </p>
+
+                <img src="https://img.redbull.com/images/c_fill,g_auto,w_1700,h_765/q_auto,f_jpg/redbullcom/2016/04/12/1331788284941_4/los-or%C3%ADgenes-de-la-f1-gran-premio-monaco.jpg" width="800px">
+            </div>
+        </main>
+    </body> 
 </html>

@@ -1,13 +1,60 @@
-.cabeza{
-    width: 7%;
-}
-.prueba{
-    text-align: center; 
-}
-.box{
-    text-align: center;
-}
-.endirecto{
-    text-align: left;
+body{
+    background-color: rgba(0, 0, 0, 0.74);
+    background-image: url("recursos/oracle-red-bull-racing-japan-2025-livery.avif");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .texto{
+        color: white;
+        padding-right: 200px;
+    }
+    .texto2{
+        color: white;
+        font-size: large;
+        width: 50%;
+    }
+    .boxtexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxFondo{
+        background-image: url("recursos/image_group-4.jpg");
+        background-color:rgba(0, 0, 0, 0.432);
+        background-size: cover;
+        width: 100%;
+        background-blend-mode: darken;
+
+        .links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .boton{
+            border-radius: 20px;
+            padding: 20px 0 20px 0;
+        
+            background-color: rgba(65, 64, 64, 0.114);
+            backdrop-filter: blur(50px);
+        
+            width: 200px;
+            position:relative;
+        
+            text-align: center;
+            margin:10px;
+        
+            .logos{
+                width: 95px;
+            }
+
+            .link{
+                color: aliceblue;
+            }
+        }
+    }
 }
 
